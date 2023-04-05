@@ -32,4 +32,8 @@ Slides from class
   * MPI_Reduce
 * All-to-All
   * MPI_Allgather
-  * many more
+
+## Virtual Topologies 虚拟拓扑  
+* Cartesian (grid) topologies 笛卡尔拓扑  
+ * MPI_Cart_create
+ * MPI_Cart_shift
