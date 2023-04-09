@@ -5,6 +5,8 @@ Slides from class
 [两小时入门MPI与并行计算系列](https://zhuanlan.zhihu.com/p/355652501)  
 [Microsoft MPI](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi)  [(中文版)](https://learn.microsoft.com/zh-cn/message-passing-interface/microsoft-mpi)  
 
+### 常用函数用法列表
+
 ##  Point-to-Point Communication 点对点通信  
 * 4 Communication modes 四种通信模式
   * MPI_Send / MPI_Recv (Standard 标准)  
@@ -35,5 +37,5 @@ Slides from class
 
 ## Virtual Topologies 虚拟拓扑  
 * Cartesian (grid) topologies 笛卡尔拓扑  
- * MPI_Cart_create
- * MPI_Cart_shift
+  * MPI_Cart_create
+  * MPI_Cart_shift
