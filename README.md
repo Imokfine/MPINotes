@@ -1,11 +1,10 @@
 # MPINotes
-### 笔记参考来源
+### References 笔记参考来源
 Slides from course  
 [MPI tutorial](https://mpitutorial.com/tutorials/)  
 [两小时入门MPI与并行计算系列](https://zhuanlan.zhihu.com/p/355652501)  
 [Microsoft MPI](https://learn.microsoft.com/en-us/message-passing-interface/microsoft-mpi)  [(中文版)](https://learn.microsoft.com/zh-cn/message-passing-interface/microsoft-mpi)  
 
-### 常用函数用法列表
 
 ##  Point-to-Point Communication 点对点通信  
 * 4 Communication modes 四种通信模式
@@ -39,3 +38,26 @@ Slides from course
 * Cartesian (grid) topologies 笛卡尔拓扑  
   * MPI_Cart_create
   * MPI_Cart_shift
+
+## Remote Memory Access (RMA) 远端内存访问 / One Sided Communication 单边通信
+### Steps  
+* Define the memory of the process that can be used for RMA operations:  
+  * MPI_Win
+* Specify data to be moved and where to move it:  
+  * MPI_Win  
+  * MPI_Put / MPI_Rput  
+  * MPI_Get / MPI_Rget  
+  * MPI_Accumulate / MPI_Raccumulate  
+* Specify how to know that the data is available.  
+
+### Synchronization Methods  
+* Fence
+  * MPI_Win_fence
+* PSCW (Post-Start-Complete-Wait)  
+  * MPI_Win_post
+  * MPI_Win_start
+  * MPI_Win_complete
+  * MPI_Win_wait
+* Shared lock access
+  * MPI_Win_lock
+  * MPI_Win_unlock 
