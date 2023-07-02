@@ -61,3 +61,8 @@ Slides from course
 * Shared lock access
   * MPI_Win_lock
   * MPI_Win_unlock 
+
+### MPI Tasks  
+* [Exercises 1](https://github.com/Imokfine/MPINotes/tree/main/Example1)
+* [Exercises 2](https://github.com/Imokfine/MPINotes/tree/main/Example2)
+* [Exercises 3](https://github.com/Imokfine/MPINotes/tree/main/Example3)
