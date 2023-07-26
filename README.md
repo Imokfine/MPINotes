@@ -63,6 +63,6 @@ Slides from course
   * MPI_Win_unlock 
 
 ### MPI Tasks  
-* [Exercises 1](https://github.com/Imokfine/MPINotes/tree/main/Example1)
-* [Exercises 2](https://github.com/Imokfine/MPINotes/tree/main/Example2)
-* [Exercises 3](https://github.com/Imokfine/MPINotes/tree/main/Example3)
+* [Exercises 1: Parallel Vector Operation](https://github.com/Imokfine/MPINotes/tree/main/Example1)
+* [Exercises 2: Parallel Poisson Solver](https://github.com/Imokfine/MPINotes/tree/main/Example2)
+* [Exercises 3: Parallel Poisson Solver: RMA](https://github.com/Imokfine/MPINotes/tree/main/Example3)
